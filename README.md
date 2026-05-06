@@ -1,6 +1,18 @@
 # TTP Solutions Web Explorer
 
-Interactive browser-based viewer for TTP solver results. **No server required** — just open `index.html` directly in any browser.
+Interactive browser-based viewer for **Travelling Thief Problem (TTP)** solver results.
+
+**Live demo:** https://YOUR_USERNAME.github.io/ttpweb/
+
+> Replace the link above with your actual GitHub Pages URL once published.
+
+---
+
+## What is this?
+
+The TTP combines the Travelling Salesman Problem (TSP) with the 0/1 Knapsack Problem: a thief must visit cities, pick up items to maximize profit, and return home — while carrying weight that slows them down. This explorer lets you visually browse and compare solutions produced by different solvers (Gurobi, Hexaly, etc.) across multiple TTP instances.
+
+No installation needed — everything runs in your browser.
 
 ---
 
@@ -8,9 +20,9 @@ Interactive browser-based viewer for TTP solver results. **No server required** 
 
 | File | Purpose |
 |---|---|
-| `index.html` | Self-contained web explorer — all data embedded, no dependencies |
-| `generate_index_new.py` | Scans solution folders, embeds all data, and writes `index.html` |
-| `solutions_index.json` | Backward-compatible JSON manifest (auto-generated alongside `index.html`) |
+| `index.html` | Self-contained web explorer — all solution data embedded, no server or dependencies needed |
+| `generate_index.py` | Scans solution folders, embeds all data, and writes `index.html` |
+| `solutions_index.json` | Auto-generated JSON manifest (written alongside `index.html`) |
 
 ---
 
@@ -27,19 +39,12 @@ Every time a solver produces new `*_sol.json` files, regenerate the explorer:
 
 ```bash
 # from inside this folder:
-python3 generate_index_new.py
+python3 generate_index.py
 ```
 
-This rewrites both `index.html` (self-contained, ~100 KB) and `solutions_index.json`.
+This rewrites both `index.html` (self-contained) and `solutions_index.json`.
 
-> **Tour index normalization:** the generator automatically converts 0-based tour arrays (as saved by some gurobi runs) to 1-based to match the node index convention.
-
----
-
-## Deploy Online
-
-Upload the single `index.html` file to any static hosting service (GitHub Pages, Netlify, Vercel, etc.).  
-No other files need to be included — everything is embedded.
+> **Tour index normalization:** the generator automatically converts 0-based tour arrays (as saved by some Gurobi runs) to 1-based to match the node index convention.
 
 ---
 
