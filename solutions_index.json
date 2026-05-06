@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-06T09:43:32",
+  "runs": [
+    {
+      "run_id": "gurobi_20260505_231626",
+      "solver": "gurobi",
+      "pools": [
+        {
+          "pool": "toy-10-ttp",
+          "files": [
+            "gurobi_20260505_231626/toy-10-ttp/toy-10_n27_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-10-ttp/toy-10_n27_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-10-ttp/toy-10_n27_bounded-strongly-corr_03_sol",
+            "gurobi_20260505_231626/toy-10-ttp/toy-10_n9_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-10-ttp/toy-10_n9_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-10-ttp/toy-10_n9_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "toy-20-ttp",
+          "files": [
+            "gurobi_20260505_231626/toy-20-ttp/toy-20_n19_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-20-ttp/toy-20_n19_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-20-ttp/toy-20_n19_bounded-strongly-corr_03_sol",
+            "gurobi_20260505_231626/toy-20-ttp/toy-20_n57_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-20-ttp/toy-20_n57_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-20-ttp/toy-20_n57_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "toy-30-ttp",
+          "files": [
+            "gurobi_20260505_231626/toy-30-ttp/toy-30_n29_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-30-ttp/toy-30_n29_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-30-ttp/toy-30_n29_bounded-strongly-corr_03_sol",
+            "gurobi_20260505_231626/toy-30-ttp/toy-30_n87_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-30-ttp/toy-30_n87_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-30-ttp/toy-30_n87_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "toy-40-ttp",
+          "files": [
+            "gurobi_20260505_231626/toy-40-ttp/toy-40_n117_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-40-ttp/toy-40_n117_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-40-ttp/toy-40_n117_bounded-strongly-corr_03_sol",
+            "gurobi_20260505_231626/toy-40-ttp/toy-40_n39_bounded-strongly-corr_01_sol",
+            "gurobi_20260505_231626/toy-40-ttp/toy-40_n39_bounded-strongly-corr_02_sol",
+            "gurobi_20260505_231626/toy-40-ttp/toy-40_n39_bounded-strongly-corr_03_sol"
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "hexaly_20260505_234323",
+      "solver": "hexaly",
+      "pools": [
+        {
+          "pool": "berlin52-ttp",
+          "files": [
+            "hexaly_20260505_234323/berlin52-ttp/berlin52_n153_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/berlin52-ttp/berlin52_n153_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/berlin52-ttp/berlin52_n153_bounded-strongly-corr_03_sol",
+            "hexaly_20260505_234323/berlin52-ttp/berlin52_n51_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/berlin52-ttp/berlin52_n51_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/berlin52-ttp/berlin52_n51_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "eil51-ttp",
+          "files": [
+            "hexaly_20260505_234323/eil51-ttp/eil51_n150_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/eil51-ttp/eil51_n150_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/eil51-ttp/eil51_n150_bounded-strongly-corr_03_sol",
+            "hexaly_20260505_234323/eil51-ttp/eil51_n50_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/eil51-ttp/eil51_n50_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/eil51-ttp/eil51_n50_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "eil76-ttp",
+          "files": [
+            "hexaly_20260505_234323/eil76-ttp/eil76_n225_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/eil76-ttp/eil76_n225_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/eil76-ttp/eil76_n225_bounded-strongly-corr_03_sol",
+            "hexaly_20260505_234323/eil76-ttp/eil76_n75_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/eil76-ttp/eil76_n75_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/eil76-ttp/eil76_n75_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "pr76-ttp",
+          "files": [
+            "hexaly_20260505_234323/pr76-ttp/pr76_n225_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/pr76-ttp/pr76_n225_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/pr76-ttp/pr76_n225_bounded-strongly-corr_03_sol",
+            "hexaly_20260505_234323/pr76-ttp/pr76_n75_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/pr76-ttp/pr76_n75_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/pr76-ttp/pr76_n75_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "rat99-ttp",
+          "files": [
+            "hexaly_20260505_234323/rat99-ttp/rat99_n294_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/rat99-ttp/rat99_n294_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/rat99-ttp/rat99_n294_bounded-strongly-corr_03_sol",
+            "hexaly_20260505_234323/rat99-ttp/rat99_n98_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/rat99-ttp/rat99_n98_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/rat99-ttp/rat99_n98_bounded-strongly-corr_03_sol"
+          ]
+        },
+        {
+          "pool": "st70-ttp",
+          "files": [
+            "hexaly_20260505_234323/st70-ttp/st70_n207_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/st70-ttp/st70_n207_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/st70-ttp/st70_n207_bounded-strongly-corr_03_sol",
+            "hexaly_20260505_234323/st70-ttp/st70_n69_bounded-strongly-corr_01_sol",
+            "hexaly_20260505_234323/st70-ttp/st70_n69_bounded-strongly-corr_02_sol",
+            "hexaly_20260505_234323/st70-ttp/st70_n69_bounded-strongly-corr_03_sol"
+          ]
+        }
+      ]
+    }
+  ]
+}

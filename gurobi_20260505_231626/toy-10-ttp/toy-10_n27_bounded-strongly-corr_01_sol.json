@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "instance_name": "toy-10_n27_bounded-strongly-corr_01",
+    "instance_pool": "toy-10-ttp",
+    "solver": "gurobi",
+    "solver_version": "13.0.1",
+    "solved_at": "2026-05-05T23:34:12"
+  },
+  "instance_summary": {
+    "problem_name": "toy-10-TTP",
+    "knapsack_data_type": "bounded strongly correlated",
+    "dimension": 10,
+    "number_of_items": 27,
+    "capacity_of_knapsack": 6150,
+    "min_speed": 0.1,
+    "max_speed": 1.0,
+    "renting_ratio": 3.29,
+    "edge_weight_type": "CEIL_2D",
+    "nodes": [
+      {
+        "index": 1,
+        "x": 30.0,
+        "y": 62.0
+      },
+      {
+        "index": 2,
+        "x": 64.0,
+        "y": 73.0
+      },
+      {
+        "index": 3,
+        "x": 27.0,
+        "y": 73.0
+      },
+      {
+        "index": 4,
+        "x": 61.0,
+        "y": 10.0
+      },
+      {
+        "index": 5,
+        "x": 0.0,
+        "y": 43.0
+      },
+      {
+        "index": 6,
+        "x": 79.0,
+        "y": 30.0
+      },
+      {
+        "index": 7,
+        "x": 55.0,
+        "y": 66.0
+      },
+      {
+        "index": 8,
+        "x": 30.0,
+        "y": 50.0
+      },
+      {
+        "index": 9,
+        "x": 32.0,
+        "y": 69.0
+      },
+      {
+        "index": 10,
+        "x": 97.0,
+        "y": 13.0
+      }
+    ]
+  },
+  "status": {
+    "solver_status": "INTERRUPTED",
+    "solve_time_seconds": 4.0989,
+    "objective": 24120.4196,
+    "upper_bound": 24918.3996,
+    "lower_bound": 24918.3996,
+    "mip_gap_percent": 3.308318
+  },
+  "solution": {
+    "tour": [
+      1,
+      8,
+      5,
+      4,
+      10,
+      6,
+      2,
+      7,
+      3,
+      9,
+      1
+    ],
+    "picked_items": [
+      {
+        "item_index": 1,
+        "city_index": 2,
+        "x": 64.0,
+        "y": 73.0,
+        "profit": 1713.9108504628498,
+        "weight": 440
+      },
+      {
+        "item_index": 3,
+        "city_index": 2,
+        "x": 64.0,
+        "y": 73.0,
+        "profit": 1068.866718221736,
+        "weight": 254
+      },
+      {
+        "item_index": 4,
+        "city_index": 3,
+        "x": 27.0,
+        "y": 73.0,
+        "profit": 1547.4478485941752,
+        "weight": 392
+      },
+      {
+        "item_index": 5,
+        "city_index": 3,
+        "x": 27.0,
+        "y": 73.0,
+        "profit": 1779.8024553692,
+        "weight": 459
+      },
+      {
+        "item_index": 6,
+        "city_index": 3,
+        "x": 27.0,
+        "y": 73.0,
+        "profit": 1433.0045348094616,
+        "weight": 359
+      },
+      {
+        "item_index": 7,
+        "city_index": 4,
+        "x": 61.0,
+        "y": 10.0,
+        "profit": 1342.8370754639295,
+        "weight": 333
+      },
+      {
+        "item_index": 8,
+        "city_index": 4,
+        "x": 61.0,
+        "y": 10.0,
+        "profit": 857.3199866802955,
+        "weight": 193
+      },
+      {
+        "item_index": 9,
+        "city_index": 4,
+        "x": 61.0,
+        "y": 10.0,
+        "profit": 1124.3543855112944,
+        "weight": 270
+      },
+      {
+        "item_index": 10,
+        "city_index": 5,
+        "x": 0.0,
+        "y": 43.0,
+        "profit": 701.2609224284131,
+        "weight": 148
+      },
+      {
+        "item_index": 11,
+        "city_index": 5,
+        "x": 0.0,
+        "y": 43.0,
+        "profit": 1401.7927219590852,
+        "weight": 350
+      },
+      {
+        "item_index": 12,
+        "city_index": 5,
+        "x": 0.0,
+        "y": 43.0,
+        "profit": 1020.3150093433726,
+        "weight": 240
+      },
+      {
+        "item_index": 13,
+        "city_index": 6,
+        "x": 79.0,
+        "y": 30.0,
+        "profit": 1117.4184271000995,
+        "weight": 268
+      },
+      {
+        "item_index": 14,
+        "city_index": 6,
+        "x": 79.0,
+        "y": 30.0,
+        "profit": 850.3840282691007,
+        "weight": 191
+      },
+      {
+        "item_index": 15,
+        "city_index": 6,
+        "x": 79.0,
+        "y": 30.0,
+        "profit": 1009.9110717265804,
+        "weight": 237
+      },
+      {
+        "item_index": 17,
+        "city_index": 7,
+        "x": 55.0,
+        "y": 66.0,
+        "profit": 867.7239242970876,
+        "weight": 196
+      },
+      {
+        "item_index": 18,
+        "city_index": 7,
+        "x": 55.0,
+        "y": 66.0,
+        "profit": 441.1624820086092,
+        "weight": 73
+      },
+      {
+        "item_index": 19,
+        "city_index": 8,
+        "x": 30.0,
+        "y": 50.0,
+        "profit": 631.9013383164654,
+        "weight": 128
+      },
+      {
+        "item_index": 20,
+        "city_index": 8,
+        "x": 30.0,
+        "y": 50.0,
+        "profit": 1346.305054669527,
+        "weight": 334
+      },
+      {
+        "item_index": 21,
+        "city_index": 8,
+        "x": 30.0,
+        "y": 50.0,
+        "profit": 708.1968808396078,
+        "weight": 150
+      },
+      {
+        "item_index": 22,
+        "city_index": 9,
+        "x": 32.0,
+        "y": 69.0,
+        "profit": 1294.2853665855662,
+        "weight": 319
+      },
+      {
+        "item_index": 23,
+        "city_index": 9,
+        "x": 32.0,
+        "y": 69.0,
+        "profit": 430.75854439181705,
+        "weight": 70
+      },
+      {
+        "item_index": 24,
+        "city_index": 9,
+        "x": 32.0,
+        "y": 69.0,
+        "profit": 1772.8664969580054,
+        "weight": 457
+      },
+      {
+        "item_index": 25,
+        "city_index": 10,
+        "x": 97.0,
+        "y": 13.0,
+        "profit": 898.9357371474641,
+        "weight": 205
+      },
+      {
+        "item_index": 27,
+        "city_index": 10,
+        "x": 97.0,
+        "y": 13.0,
+        "profit": 475.842274064583,
+        "weight": 83
+      }
+    ],
+    "metrics": {
+      "total_profit": 25836.6041,
+      "total_weight": 6149,
+      "total_distance": 277.0,
+      "num_items_picked": 24,
+      "num_items_total": 27,
+      "capacity_used_fraction": 0.999837
+    }
+  }
+}

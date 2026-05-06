@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "instance_name": "toy-10_n9_bounded-strongly-corr_03",
+    "instance_pool": "toy-10-ttp",
+    "solver": "gurobi",
+    "solver_version": "13.0.1",
+    "solved_at": "2026-05-05T23:34:07"
+  },
+  "instance_summary": {
+    "problem_name": "toy-10-TTP",
+    "knapsack_data_type": "bounded strongly correlated",
+    "dimension": 10,
+    "number_of_items": 9,
+    "capacity_of_knapsack": 1710,
+    "min_speed": 0.1,
+    "max_speed": 1.0,
+    "renting_ratio": 5.89,
+    "edge_weight_type": "CEIL_2D",
+    "nodes": [
+      {
+        "index": 1,
+        "x": 44.0,
+        "y": 35.0
+      },
+      {
+        "index": 2,
+        "x": 9.0,
+        "y": 94.0
+      },
+      {
+        "index": 3,
+        "x": 10.0,
+        "y": 82.0
+      },
+      {
+        "index": 4,
+        "x": 28.0,
+        "y": 2.0
+      },
+      {
+        "index": 5,
+        "x": 40.0,
+        "y": 95.0
+      },
+      {
+        "index": 6,
+        "x": 19.0,
+        "y": 82.0
+      },
+      {
+        "index": 7,
+        "x": 8.0,
+        "y": 13.0
+      },
+      {
+        "index": 8,
+        "x": 28.0,
+        "y": 9.0
+      },
+      {
+        "index": 9,
+        "x": 97.0,
+        "y": 77.0
+      },
+      {
+        "index": 10,
+        "x": 72.0,
+        "y": 54.0
+      }
+    ]
+  },
+  "status": {
+    "solver_status": "INTERRUPTED",
+    "solve_time_seconds": 214.0987,
+    "objective": 4822.183,
+    "upper_bound": 6266.9484,
+    "lower_bound": 6266.9484,
+    "mip_gap_percent": 29.960817
+  },
+  "solution": {
+    "tour": [
+      1,
+      10,
+      9,
+      5,
+      6,
+      2,
+      3,
+      7,
+      4,
+      8,
+      1
+    ],
+    "picked_items": [
+      {
+        "item_index": 1,
+        "city_index": 2,
+        "x": 9.0,
+        "y": 94.0,
+        "profit": 2507.171347124709,
+        "weight": 492
+      },
+      {
+        "item_index": 2,
+        "city_index": 3,
+        "x": 10.0,
+        "y": 82.0,
+        "profit": 1421.7748691888683,
+        "weight": 264
+      },
+      {
+        "item_index": 3,
+        "city_index": 4,
+        "x": 28.0,
+        "y": 2.0,
+        "profit": 1369.409249639332,
+        "weight": 253
+      },
+      {
+        "item_index": 4,
+        "city_index": 5,
+        "x": 40.0,
+        "y": 95.0,
+        "profit": 1059.9760432102548,
+        "weight": 188
+      },
+      {
+        "item_index": 5,
+        "city_index": 6,
+        "x": 19.0,
+        "y": 82.0,
+        "profit": 917.1607171660651,
+        "weight": 158
+      },
+      {
+        "item_index": 6,
+        "city_index": 7,
+        "x": 8.0,
+        "y": 13.0,
+        "profit": 431.58860861582053,
+        "weight": 56
+      },
+      {
+        "item_index": 7,
+        "city_index": 8,
+        "x": 28.0,
+        "y": 9.0,
+        "profit": 412.54656514326194,
+        "weight": 52
+      },
+      {
+        "item_index": 9,
+        "city_index": 10,
+        "x": 72.0,
+        "y": 54.0,
+        "profit": 450.6306520883792,
+        "weight": 60
+      }
+    ],
+    "metrics": {
+      "total_profit": 8570.2581,
+      "total_weight": 1523,
+      "total_distance": 313.0,
+      "num_items_picked": 8,
+      "num_items_total": 9,
+      "capacity_used_fraction": 0.890643
+    }
+  }
+}
