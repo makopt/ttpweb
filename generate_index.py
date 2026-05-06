@@ -314,6 +314,58 @@ body.dark .st-INFEASIBLE,body.dark .st-ERROR{background:rgba(248,113,113,0.1);co
 #footer strong{color:var(--text2);font-weight:600}
 #footer a{color:var(--blue);text-decoration:none;font-weight:600}
 #footer a:hover{text-decoration:underline}
+/* ── Responsive ──────────────────────────────────────────── */
+.mob-btn{
+  display:none;flex-shrink:0;width:32px;height:32px;border-radius:8px;
+  border:1px solid var(--bd);background:transparent;cursor:pointer;
+  font-size:15px;align-items:center;justify-content:center;
+  transition:all .2s;color:var(--muted);padding:0;
+}
+.mob-btn:hover{background:var(--surf2);border-color:var(--bd2);color:var(--blue)}
+.mob-btn.active{background:rgba(37,99,235,0.08);border-color:rgba(37,99,235,0.3);color:var(--blue)}
+body.dark .mob-btn.active{background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3)}
+#overlay{
+  display:none;position:fixed;inset:0;z-index:40;
+  background:rgba(0,0,0,0.35);backdrop-filter:blur(2px);
+  transition:opacity .2s;
+}
+#overlay.show{display:block}
+@media(max-width:1023px){
+  .mob-btn{display:flex}
+  #sidebar{
+    position:fixed;left:0;top:0;bottom:0;z-index:50;
+    transform:translateX(calc(-1 * var(--sidew) - 10px));
+    transition:transform .28s cubic-bezier(.4,0,.2,1);
+    box-shadow:6px 0 32px rgba(0,0,0,0.12);
+  }
+  #sidebar.open{transform:translateX(0)}
+  #right{
+    position:fixed;right:0;top:0;bottom:0;z-index:50;
+    transform:translateX(calc(var(--rightw) + 10px));
+    transition:transform .28s cubic-bezier(.4,0,.2,1);
+    box-shadow:-6px 0 32px rgba(0,0,0,0.12);
+  }
+  #right.open{transform:translateX(0)}
+  #stat-gen{display:none}
+  body.dark #sidebar{box-shadow:6px 0 32px rgba(0,0,0,0.5)}
+  body.dark #right{box-shadow:-6px 0 32px rgba(0,0,0,0.5)}
+}
+@media(max-width:639px){
+  header{padding:0 10px;gap:8px;height:48px}
+  .logo-text .sub{display:none}
+  .hdr-div{display:none}
+  .stat-chip:last-of-type,.stat-chip:nth-child(2){display:none}
+  #toolbar{padding:0 8px;gap:4px;height:40px}
+  #toolbar-title{font-size:11px;max-width:100px}
+  .tbtn{padding:4px 7px;font-size:10px}
+  #footer{height:auto;padding:5px 10px;flex-wrap:wrap;justify-content:center;gap:2px;font-size:9px;line-height:1.8}
+  .w-card{padding:24px 28px;margin:16px}
+}
+@media(max-width:399px){
+  .stat-chip{display:none}
+  #toolbar-title{display:none}
+  .tbtn{padding:4px 6px}
+}
 </style>
 </head>
 <body>
@@ -346,6 +398,7 @@ body.dark .st-INFEASIBLE,body.dark .st-ERROR{background:rgba(248,113,113,0.1);co
   </aside>
   <main id="map-area">
     <div id="toolbar">
+      <button class="mob-btn" id="btn-sidebar" onclick="toggleSidebar()" title="Toggle sidebar">&#9776;</button>
       <span id="toolbar-title" style="color:var(--muted)">Select a solution &#8594;</span>
       <div style="display:flex;gap:5px;margin-left:auto">
         <button class="tbtn on" id="btn-tour">Tour</button>
@@ -353,6 +406,7 @@ body.dark .st-INFEASIBLE,body.dark .st-ERROR{background:rgba(248,113,113,0.1);co
         <button class="tbtn on" id="btn-labels">Labels</button>
         <button class="tbtn" id="btn-fit">&#10227; Fit</button>
       </div>
+      <button class="mob-btn" id="btn-right" onclick="toggleRight()" title="Toggle details panel">&#9432;</button>
     </div>
     <div id="canvas-wrap">
       <div id="welcome">
@@ -384,6 +438,7 @@ body.dark .st-INFEASIBLE,body.dark .st-ERROR{background:rgba(248,113,113,0.1);co
 <div id="footer">
   Powered by&ensp;<strong>Dr. Mahdi Khemakhem</strong>&ensp;&middot;&ensp;University of Sfax, Tunisia&ensp;&middot;&ensp;with the kind help of&ensp;<a href="https://claude.ai" target="_blank" rel="noopener">Claude.ai</a>
 </div>
+<div id="overlay" onclick="closePanels()"></div>
 <div id="tip"></div>
 <script>
 const IDX=__INDEX__;
@@ -486,6 +541,7 @@ function loadKey(key,el){
   updateLegend();
   mapped=mapCoords(sol.instance_summary.nodes);
   vb={x:0,y:0,w:CW,h:CH};applyVB();drawMap();renderRight(sol);
+  if(isMobile()){closePanels();}
 }
 
 function mapCoords(nodes){
@@ -678,6 +734,39 @@ function renderTable(items){
 }
 
 function mk(tag,cls){var e=document.createElement(tag);if(cls)e.className=cls;return e;}
+
+/* ── Responsive panel toggles ───────────────────────────── */
+function isMobile(){return window.innerWidth<1024;}
+function toggleSidebar(){
+  var sb=document.getElementById('sidebar'),ov=document.getElementById('overlay');
+  var rt=document.getElementById('right');
+  var opening=!sb.classList.contains('open');
+  if(opening){rt.classList.remove('open');document.getElementById('btn-right').classList.remove('active');}
+  sb.classList.toggle('open',opening);
+  document.getElementById('btn-sidebar').classList.toggle('active',opening);
+  ov.classList.toggle('show',opening&&isMobile());
+}
+function toggleRight(){
+  var rt=document.getElementById('right'),ov=document.getElementById('overlay');
+  var sb=document.getElementById('sidebar');
+  var opening=!rt.classList.contains('open');
+  if(opening){sb.classList.remove('open');document.getElementById('btn-sidebar').classList.remove('active');}
+  rt.classList.toggle('open',opening);
+  document.getElementById('btn-right').classList.toggle('active',opening);
+  ov.classList.toggle('show',opening&&isMobile());
+}
+function closePanels(){
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('right').classList.remove('open');
+  document.getElementById('btn-sidebar').classList.remove('active');
+  document.getElementById('btn-right').classList.remove('active');
+  document.getElementById('overlay').classList.remove('show');
+}
+window.addEventListener('resize',function(){
+  if(!isMobile()){
+    document.getElementById('overlay').classList.remove('show');
+  }
+});
 </script>
 </body>
 </html>
