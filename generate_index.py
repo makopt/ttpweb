@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 
 """
 generate_index.py — scan solution JSON files, produce a SELF-CONTAINED index.html.
 All data embedded as JS — open index.html directly in any browser (no server needed).

@@ -26,7 +26,7 @@ No installation needed — everything runs in your browser.
 
 ---
 
-## Open Locally
+## Open Locally 
 
 Double-click `index.html` or drag it into any browser — no server needed.  
 All solution data is embedded directly in the file at generation time.
