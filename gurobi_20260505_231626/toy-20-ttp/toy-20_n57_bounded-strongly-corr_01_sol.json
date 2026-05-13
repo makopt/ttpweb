@@ -5,7 +5,7 @@
     "instance_pool": "toy-20-ttp",
     "solver": "gurobi",
     "solver_version": "13.0.1",
-    "solved_at": "2026-05-06T00:02:16"
+    "solved_at": "2026-05-13T16:02:16"
   },
   "instance_summary": {
     "problem_name": "toy-20-TTP",
@@ -122,11 +122,11 @@
   },
   "status": {
     "solver_status": "TIME_LIMIT",
-    "solve_time_seconds": 600.0613,
+    "solve_time_seconds": 911.4696,
     "objective": 64241.8426,
-    "upper_bound": 67212.1731,
-    "lower_bound": 67212.1731,
-    "mip_gap_percent": 4.62367
+    "upper_bound": 67219.5859,
+    "lower_bound": 67219.5859,
+    "mip_gap_percent": 4.635208
   },
   "solution": {
     "tour": [
