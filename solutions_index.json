@@ -1,124 +1,376 @@
 {
-  "generated_at": "2026-05-13T16:08:40",
+  "generated_at": "2026-05-15T18:09:21",
   "runs": [
     {
-      "run_id": "gurobi_20260505_231626",
+      "run_id": "gurobi",
       "solver": "gurobi",
       "pools": [
         {
           "pool": "toy-10-ttp",
           "files": [
-            "gurobi_20260505_231626/toy-10-ttp/toy-10_n27_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-10-ttp/toy-10_n27_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-10-ttp/toy-10_n27_bounded-strongly-corr_03_sol",
-            "gurobi_20260505_231626/toy-10-ttp/toy-10_n9_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-10-ttp/toy-10_n9_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-10-ttp/toy-10_n9_bounded-strongly-corr_03_sol"
+            "gurobi/toy-10-ttp/toy-10_n27_bounded-strongly-corr_01_sol",
+            "gurobi/toy-10-ttp/toy-10_n27_bounded-strongly-corr_02_sol",
+            "gurobi/toy-10-ttp/toy-10_n27_bounded-strongly-corr_03_sol",
+            "gurobi/toy-10-ttp/toy-10_n9_bounded-strongly-corr_01_sol",
+            "gurobi/toy-10-ttp/toy-10_n9_bounded-strongly-corr_02_sol",
+            "gurobi/toy-10-ttp/toy-10_n9_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "toy-20-ttp",
           "files": [
-            "gurobi_20260505_231626/toy-20-ttp/toy-20_n19_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-20-ttp/toy-20_n19_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-20-ttp/toy-20_n19_bounded-strongly-corr_03_sol",
-            "gurobi_20260505_231626/toy-20-ttp/toy-20_n57_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-20-ttp/toy-20_n57_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-20-ttp/toy-20_n57_bounded-strongly-corr_03_sol"
+            "gurobi/toy-20-ttp/toy-20_n19_bounded-strongly-corr_01_sol",
+            "gurobi/toy-20-ttp/toy-20_n19_bounded-strongly-corr_02_sol",
+            "gurobi/toy-20-ttp/toy-20_n19_bounded-strongly-corr_03_sol",
+            "gurobi/toy-20-ttp/toy-20_n57_bounded-strongly-corr_01_sol",
+            "gurobi/toy-20-ttp/toy-20_n57_bounded-strongly-corr_02_sol",
+            "gurobi/toy-20-ttp/toy-20_n57_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "toy-30-ttp",
           "files": [
-            "gurobi_20260505_231626/toy-30-ttp/toy-30_n29_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-30-ttp/toy-30_n29_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-30-ttp/toy-30_n29_bounded-strongly-corr_03_sol",
-            "gurobi_20260505_231626/toy-30-ttp/toy-30_n87_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-30-ttp/toy-30_n87_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-30-ttp/toy-30_n87_bounded-strongly-corr_03_sol"
+            "gurobi/toy-30-ttp/toy-30_n29_bounded-strongly-corr_01_sol",
+            "gurobi/toy-30-ttp/toy-30_n29_bounded-strongly-corr_02_sol",
+            "gurobi/toy-30-ttp/toy-30_n29_bounded-strongly-corr_03_sol",
+            "gurobi/toy-30-ttp/toy-30_n87_bounded-strongly-corr_01_sol",
+            "gurobi/toy-30-ttp/toy-30_n87_bounded-strongly-corr_02_sol",
+            "gurobi/toy-30-ttp/toy-30_n87_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "toy-40-ttp",
           "files": [
-            "gurobi_20260505_231626/toy-40-ttp/toy-40_n117_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-40-ttp/toy-40_n117_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-40-ttp/toy-40_n117_bounded-strongly-corr_03_sol",
-            "gurobi_20260505_231626/toy-40-ttp/toy-40_n39_bounded-strongly-corr_01_sol",
-            "gurobi_20260505_231626/toy-40-ttp/toy-40_n39_bounded-strongly-corr_02_sol",
-            "gurobi_20260505_231626/toy-40-ttp/toy-40_n39_bounded-strongly-corr_03_sol"
+            "gurobi/toy-40-ttp/toy-40_n117_bounded-strongly-corr_01_sol",
+            "gurobi/toy-40-ttp/toy-40_n117_bounded-strongly-corr_02_sol",
+            "gurobi/toy-40-ttp/toy-40_n117_bounded-strongly-corr_03_sol",
+            "gurobi/toy-40-ttp/toy-40_n39_bounded-strongly-corr_01_sol",
+            "gurobi/toy-40-ttp/toy-40_n39_bounded-strongly-corr_02_sol",
+            "gurobi/toy-40-ttp/toy-40_n39_bounded-strongly-corr_03_sol"
           ]
         }
       ]
     },
     {
-      "run_id": "hexaly_20260505_234323",
+      "run_id": "hexaly",
       "solver": "hexaly",
       "pools": [
         {
           "pool": "berlin52-ttp",
           "files": [
-            "hexaly_20260505_234323/berlin52-ttp/berlin52_n153_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/berlin52-ttp/berlin52_n153_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/berlin52-ttp/berlin52_n153_bounded-strongly-corr_03_sol",
-            "hexaly_20260505_234323/berlin52-ttp/berlin52_n51_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/berlin52-ttp/berlin52_n51_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/berlin52-ttp/berlin52_n51_bounded-strongly-corr_03_sol"
+            "hexaly/berlin52-ttp/berlin52_n153_bounded-strongly-corr_01_sol",
+            "hexaly/berlin52-ttp/berlin52_n153_bounded-strongly-corr_02_sol",
+            "hexaly/berlin52-ttp/berlin52_n153_bounded-strongly-corr_03_sol",
+            "hexaly/berlin52-ttp/berlin52_n51_bounded-strongly-corr_01_sol",
+            "hexaly/berlin52-ttp/berlin52_n51_bounded-strongly-corr_02_sol",
+            "hexaly/berlin52-ttp/berlin52_n51_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "eil51-ttp",
           "files": [
-            "hexaly_20260505_234323/eil51-ttp/eil51_n150_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/eil51-ttp/eil51_n150_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/eil51-ttp/eil51_n150_bounded-strongly-corr_03_sol",
-            "hexaly_20260505_234323/eil51-ttp/eil51_n50_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/eil51-ttp/eil51_n50_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/eil51-ttp/eil51_n50_bounded-strongly-corr_03_sol"
+            "hexaly/eil51-ttp/eil51_n150_bounded-strongly-corr_01_sol",
+            "hexaly/eil51-ttp/eil51_n150_bounded-strongly-corr_02_sol",
+            "hexaly/eil51-ttp/eil51_n150_bounded-strongly-corr_03_sol",
+            "hexaly/eil51-ttp/eil51_n50_bounded-strongly-corr_01_sol",
+            "hexaly/eil51-ttp/eil51_n50_bounded-strongly-corr_02_sol",
+            "hexaly/eil51-ttp/eil51_n50_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "eil76-ttp",
           "files": [
-            "hexaly_20260505_234323/eil76-ttp/eil76_n225_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/eil76-ttp/eil76_n225_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/eil76-ttp/eil76_n225_bounded-strongly-corr_03_sol",
-            "hexaly_20260505_234323/eil76-ttp/eil76_n75_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/eil76-ttp/eil76_n75_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/eil76-ttp/eil76_n75_bounded-strongly-corr_03_sol"
+            "hexaly/eil76-ttp/eil76_n225_bounded-strongly-corr_01_sol",
+            "hexaly/eil76-ttp/eil76_n225_bounded-strongly-corr_02_sol",
+            "hexaly/eil76-ttp/eil76_n225_bounded-strongly-corr_03_sol",
+            "hexaly/eil76-ttp/eil76_n75_bounded-strongly-corr_01_sol",
+            "hexaly/eil76-ttp/eil76_n75_bounded-strongly-corr_02_sol",
+            "hexaly/eil76-ttp/eil76_n75_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "pr76-ttp",
           "files": [
-            "hexaly_20260505_234323/pr76-ttp/pr76_n225_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/pr76-ttp/pr76_n225_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/pr76-ttp/pr76_n225_bounded-strongly-corr_03_sol",
-            "hexaly_20260505_234323/pr76-ttp/pr76_n75_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/pr76-ttp/pr76_n75_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/pr76-ttp/pr76_n75_bounded-strongly-corr_03_sol"
+            "hexaly/pr76-ttp/pr76_n225_bounded-strongly-corr_01_sol",
+            "hexaly/pr76-ttp/pr76_n225_bounded-strongly-corr_02_sol",
+            "hexaly/pr76-ttp/pr76_n225_bounded-strongly-corr_03_sol",
+            "hexaly/pr76-ttp/pr76_n75_bounded-strongly-corr_01_sol",
+            "hexaly/pr76-ttp/pr76_n75_bounded-strongly-corr_02_sol",
+            "hexaly/pr76-ttp/pr76_n75_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "rat99-ttp",
           "files": [
-            "hexaly_20260505_234323/rat99-ttp/rat99_n294_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/rat99-ttp/rat99_n294_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/rat99-ttp/rat99_n294_bounded-strongly-corr_03_sol",
-            "hexaly_20260505_234323/rat99-ttp/rat99_n98_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/rat99-ttp/rat99_n98_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/rat99-ttp/rat99_n98_bounded-strongly-corr_03_sol"
+            "hexaly/rat99-ttp/rat99_n294_bounded-strongly-corr_01_sol",
+            "hexaly/rat99-ttp/rat99_n294_bounded-strongly-corr_02_sol",
+            "hexaly/rat99-ttp/rat99_n294_bounded-strongly-corr_03_sol",
+            "hexaly/rat99-ttp/rat99_n98_bounded-strongly-corr_01_sol",
+            "hexaly/rat99-ttp/rat99_n98_bounded-strongly-corr_02_sol",
+            "hexaly/rat99-ttp/rat99_n98_bounded-strongly-corr_03_sol"
           ]
         },
         {
           "pool": "st70-ttp",
           "files": [
-            "hexaly_20260505_234323/st70-ttp/st70_n207_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/st70-ttp/st70_n207_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/st70-ttp/st70_n207_bounded-strongly-corr_03_sol",
-            "hexaly_20260505_234323/st70-ttp/st70_n69_bounded-strongly-corr_01_sol",
-            "hexaly_20260505_234323/st70-ttp/st70_n69_bounded-strongly-corr_02_sol",
-            "hexaly_20260505_234323/st70-ttp/st70_n69_bounded-strongly-corr_03_sol"
+            "hexaly/st70-ttp/st70_n207_bounded-strongly-corr_01_sol",
+            "hexaly/st70-ttp/st70_n207_bounded-strongly-corr_02_sol",
+            "hexaly/st70-ttp/st70_n207_bounded-strongly-corr_03_sol",
+            "hexaly/st70-ttp/st70_n69_bounded-strongly-corr_01_sol",
+            "hexaly/st70-ttp/st70_n69_bounded-strongly-corr_02_sol",
+            "hexaly/st70-ttp/st70_n69_bounded-strongly-corr_03_sol"
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "lkh_pwica_hexaly",
+      "solver": "lkh_pwica_hexaly",
+      "pools": [
+        {
+          "pool": "berlin52-ttp",
+          "files": [
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_uncorr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_uncorr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n153_uncorr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_uncorr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_uncorr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n255_uncorr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_uncorr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_uncorr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n510_uncorr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_uncorr_01_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_uncorr_02_sol",
+            "lkh_pwica_hexaly/berlin52-ttp/berlin52_n51_uncorr_03_sol"
+          ]
+        },
+        {
+          "pool": "eil51-ttp",
+          "files": [
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n150_uncorr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n250_uncorr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n500_uncorr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil51-ttp/eil51_n50_uncorr_03_sol"
+          ]
+        },
+        {
+          "pool": "eil76-ttp",
+          "files": [
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n225_uncorr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n375_uncorr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n750_uncorr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_uncorr_01_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_uncorr_02_sol",
+            "lkh_pwica_hexaly/eil76-ttp/eil76_n75_uncorr_03_sol"
+          ]
+        },
+        {
+          "pool": "pr76-ttp",
+          "files": [
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_uncorr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_uncorr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n225_uncorr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_uncorr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_uncorr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n375_uncorr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_uncorr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_uncorr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n750_uncorr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_uncorr_01_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_uncorr_02_sol",
+            "lkh_pwica_hexaly/pr76-ttp/pr76_n75_uncorr_03_sol"
+          ]
+        },
+        {
+          "pool": "rat99-ttp",
+          "files": [
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_uncorr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_uncorr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n294_uncorr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_uncorr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_uncorr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n490_uncorr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_uncorr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_uncorr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n980_uncorr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_uncorr_01_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_uncorr_02_sol",
+            "lkh_pwica_hexaly/rat99-ttp/rat99_n98_uncorr_03_sol"
+          ]
+        },
+        {
+          "pool": "st70-ttp",
+          "files": [
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_uncorr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_uncorr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n207_uncorr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_uncorr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_uncorr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n345_uncorr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_uncorr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_uncorr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n690_uncorr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_bounded-strongly-corr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_bounded-strongly-corr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_bounded-strongly-corr_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_uncorr-similar-weights_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_uncorr-similar-weights_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_uncorr-similar-weights_03_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_uncorr_01_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_uncorr_02_sol",
+            "lkh_pwica_hexaly/st70-ttp/st70_n69_uncorr_03_sol"
           ]
         }
       ]
